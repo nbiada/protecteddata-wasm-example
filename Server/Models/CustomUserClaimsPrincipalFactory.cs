@@ -17,8 +17,8 @@ namespace ProtectedDataWasmExample.Server.Models
         {
             var identity = await base.GenerateClaimsAsync(user);
 
-            identity.AddClaim(new Claim(ClaimTypes.GivenName, user.Firstname));
-            identity.AddClaim(new Claim(ClaimTypes.Surname, user.Lastname));
+            identity.AddClaim(new Claim(ClaimTypes.GivenName, user.Firstname ?? ""));
+            identity.AddClaim(new Claim(ClaimTypes.Surname, user.Lastname ?? ""));
 
             return identity;
         }

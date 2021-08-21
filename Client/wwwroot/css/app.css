@@ -5,7 +5,7 @@ html, body {
 }
 
 a, .btn-link {
-    color: #0366d6;
+    color: #0094FF;
 }
 
 .btn-primary {
@@ -28,6 +28,10 @@ a, .btn-link {
 
 .validation-message {
     color: red;
+}
+
+h1.title, h2.title, h3.title, h4.title {
+    border-bottom: 1px solid #eee;
 }
 
 #blazor-error-ui {

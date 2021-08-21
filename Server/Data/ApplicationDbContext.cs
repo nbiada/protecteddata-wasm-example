@@ -13,5 +13,7 @@ namespace ProtectedDataWasmExample.Server.Data
             IOptions<OperationalStoreOptions> operationalStoreOptions) : base(options, operationalStoreOptions)
         {
         }
+
+        public DbSet<Company> Companies { get; set; }
     }
 }
