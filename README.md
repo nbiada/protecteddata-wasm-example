@@ -2,8 +2,10 @@
 Example of `ProtectedData` attributes for Blazor WASM project.
 
 ## Description
-This application demonstrates the use of the `ProtectedPersonalData` data annotation  
-and the __Microsoft Identity Protector system__
+This application demonstrates the use of the `ProtectedPersonalData` data annotation and the __Microsoft Identity Protector System__  
+
+The Microsoft Identity Protector System, via interfaces implementations, allow the developer to protect (crypt) and unprotect (decrypt) the _Personal Data_ in the AspNetUsers table.  
+
 
 
 From original question by [Andrea Petrelli](https://github.com/Andrea-Perelli) on 
